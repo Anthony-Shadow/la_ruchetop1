@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Ruche</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
 </head>
+
 <body>
-    <header>
+    <header class="flex spaceBetween alignCenter">
         <img src="./assets/logo.png" alt="">
-        <nav>
-            <ul>
+        <nav class="navheader">
+            <ul class="flex spaceBetween bold">
                 <li>
                     <a href="">Nos produits</a>
                 </li>
                 <li>
-                    <a href="">Notre vaoir faire</a>
+                    <a href="">Notre savoir faire</a>
                 </li>
                 <li>
                     <a href="">Notre histoire</a>
@@ -23,34 +27,63 @@
                     <a href="">Nous contacter</a>
                 </li>
             </ul>
-            <a href="">Panier</a>
         </nav>
+        <a href=""><i class="fa-solid fa-cart-plus panier"></i></a>
     </header>
-    <section>
-        <h2>La ruche</h2>
-        <h1>Miels traditionnels respectueux</h1>
-        <a href="">Découvrez notre sélection de miel</a>
-        <img src="./assets/hero-col.png" alt="">
+
+    <!--section 1 , hero-->
+    <section class="bgYellow hero flex alignCenter">
+        <div class="container flex spaceBetween alignCenter">
+            <div>
+                <h2>La ruche</h2>
+                <h1 class="bold">Miels traditionnels respectueux</h1>
+                <a href="" class="btn bold">Découvrez notre sélection de miel</a>
+            </div>
+            <img src="./assets/hero-col.png" alt="">
+        </div>
     </section>
+
+    <!-- Section des engagement -->
     <section>
-        <h3>Engagement</h3>
-        <p>Au cœur d'une vocation dédiée à la préservation de l'équilibre naturel, notre apiculteur incarne une passion inébranlable pour l'art ancien de l'apiculture. Imprégné de traditions transmises de génération en génération, son engagement envers la production de miel s'inscrit dans une démarche résolument ancrée dans le respect de la nature. À travers une approche méticuleuse et respectueuse des abeilles, cet apiculteur s'efforce de créer un miel d'une qualité exceptionnelle, révélateur des nuances uniques que la biodiversité offre à chaque saison.</p>
-        <p>Son rucher, niché dans un écrin de verdure, reflète une philosophie axée sur la symbiose entre l'homme et l'environnement. En favorisant des pratiques agricoles durables, notre apiculteur contribue non seulement à la préservation des abeilles, mais aussi à la diversité florale de la région. Chaque pot de miel qui émane de son exploitation est le fruit d'un processus méticuleux, où l'équilibre entre la tradition et l'innovation se conjugue pour offrir une expérience gustative authentique et pure.</p>
+        <div class="container flex spaceBetween engagement">
+            <h3>Engagement</h3>
+            <p>Au cœur d'une vocation dédiée à la préservation de l'équilibre naturel, notre apiculteur incarne une
+                passion
+                inébranlable pour l'art ancien de l'apiculture. Imprégné de traditions transmises de génération en
+                génération, son engagement envers la production de miel s'inscrit dans une démarche résolument ancrée
+                dans
+                le respect de la nature. À travers une approche méticuleuse et respectueuse des abeilles, cet apiculteur
+                s'efforce de créer un miel d'une qualité exceptionnelle, révélateur des nuances uniques que la
+                biodiversité
+                offre à chaque saison.</p>
+
+            <p>Son rucher, niché dans un écrin de verdure, reflète une philosophie axée sur la symbiose entre l'homme et
+                l'environnement. En favorisant des pratiques agricoles durables, notre apiculteur contribue non
+                seulement à
+                la préservation des abeilles, mais aussi à la diversité florale de la région. Chaque pot de miel qui
+                émane
+                de son exploitation est le fruit d'un processus méticuleux, où l'équilibre entre la tradition et
+                l'innovation se conjugue pour offrir une expérience gustative authentique et pure.</p>
+        </div>
     </section>
-    <section>
+    <section class="">
         <h3>Bienfaits du miel</h3>
         <div>
             <h4>Antioxydants naturels</h4>
-            <p>Le miel est riche en antioxydants, tels que les flavonoïdes, qui aident à neutraliser les radicaux libres dans le corps, contribuant ainsi à la prévention du vieillissement prématuré et de certaines maladies.</p>
+            <p>Le miel est riche en antioxydants, tels que les flavonoïdes, qui aident à neutraliser les radicaux libres
+                dans le corps, contribuant ainsi à la prévention du vieillissement prématuré et de certaines maladies.
+            </p>
         </div>
         <div>
             <h4>Propriétés antibactériennes et antiseptiques</h4>
             <p>
-            Le miel possède des propriétés antibactériennes naturelles qui peuvent aider à lutter contre les infections et accélérer le processus de guérison des plaies</p>
+                Le miel possède des propriétés antibactériennes naturelles qui peuvent aider à lutter contre les
+                infections et accélérer le processus de guérison des plaies</p>
         </div>
         <div>
             <h4>Soulagement de la toux</h4>
-            <p>Le miel est souvent utilisé comme remède naturel pour apaiser la gorge irritée et soulager la toux. Il peut être particulièrement efficace lorsqu'il est mélangé à de l'eau chaude ou à des infusions.</p>
+            <p>Le miel est souvent utilisé comme remède naturel pour apaiser la gorge irritée et soulager la toux. Il
+                peut être particulièrement efficace lorsqu'il est mélangé à de l'eau chaude ou à des infusions.</p>
         </div>
     </section>
     <section>
@@ -88,43 +121,50 @@
             <img src="./assets/isabelle.png" alt="">
             <p>Isabelle B</p>
             <div> ★★★★☆</div>
-            <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise</p>
+            <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
+                savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise</p>
         </div>
         <div>
             <img src="./assets/jean-luc.png" alt="">
             <p>Jean Luc D.</p>
             <div> ★★★★☆</div>
-            <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise.</p>
+            <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
+                savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise.
+            </p>
         </div>
         <div>
             <img src="./assets/marie.png" alt="">
             <p>Marie G.</p>
             <div> ★★★★★</div>
-            <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise</p>
+            <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
+                savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise</p>
         </div>
     </section>
     <section>
         <h3>Nous trouver</h3>
         <!-- carte -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1974981478093!2d4.356613975449251!3d45.40535683736415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aee28ef51b4b%3A0xc80903a95d39c929!2s12%20Rue%20Jean-Pierre%20Blachier%2C%2042150%20La%20Ricamarie!5e0!3m2!1sfr!2sfr!4v1730710434453!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         <address>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1974981478093!2d4.356613975449251!3d45.40535683736415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aee28ef51b4b%3A0xc80903a95d39c929!2s12%20Rue%20Jean-Pierre%20Blachier%2C%2042150%20La%20Ricamarie!5e0!3m2!1sfr!2sfr!4v1730710434453!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <address>
             <p>La ruche</p>
             <p>15 rue Jean-Pierre Blachier</p>
             <p>42520 Maclas</p>
-         </address>
+        </address>
     </section>
     <footer>
         <div>
             <h3>Contactez nous</h3>
             <a href="tel:+"></a>
             <a href="mailto:"></a>
-            <p>Du lundi au vendredi 
+            <p>Du lundi au vendredi
                 <br>
-            8h → 12h | 14h → 18h</a>
+                8h → 12h | 14h → 18h
             </p>
             <p>Samedi
                 <br>
-            8h → 12h 
+                8h → 12h
             </p>
         </div>
         <div>
@@ -152,4 +192,5 @@
         </div>
     </footer>
 </body>
+
 </html>

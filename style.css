@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Beastly&family=WindSong:wght@400;500&display=swap');
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bgYellow{
+    background-color: #F3C827;
+}
+
+
+
+.navheader{
+    /*background-color: black;*/
+    width: 50%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+.bold{
+    font-weight: 600;
+
+}
+.container{
+        /*background-color: red;*/
+        max-width: 1000px;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+.btn{
+    background-color: #F66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display:inline-block;
+    margin-top: 35px;
+    
+}
+h3{
+width: 196px;
+height: 52px;
+}
+
+/* Header*/
+header{
+    /*background-color: rgb(0, 192, 221);*/
+    padding: 15px;
+    
+}
+
+.panier{
+    color: #F3C827;
+    font-size: 30px;
+}
+
+/* debut du hero*/
+.hero{
+    height: 100vh;
+}
+
+.hero h2 {
+    font-family: "WindSong", cursive;
+    font-size: 130px;
+    font-weight: 500;
+}
+h1{
+    font-size: 32px;
+}
+.engement{
+    flex-direction: row-reverse
+}
