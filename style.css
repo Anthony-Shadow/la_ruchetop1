@@ -67,6 +67,7 @@ li{
 h3{
 width: 196px;
 height: 52px;
+border:none;
 }
 
 /* Header*/
@@ -94,6 +95,43 @@ header{
 h1{
     font-size: 32px;
 }
-.engament{
+.largeur30{
+    width: 30%;
+}
+.largeur45{
+    width: 45%;
+}
+.largeur100{
+    width: 100%;
+}
+.largeur20{
+    width: 20%;
+}
+
+.largeur10{
+    width: 10%;
+}
+
+
+.marchet{
+    background-color: #F3C827;
+    width: 267px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.justify{
+    justify-content: center;
     
+}
+
+
+.flexdirection{
+flex-direction: column;
+}
+.flexWarpnow {
+flex-wrap: nowrap;
 }
