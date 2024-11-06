@@ -13,6 +13,12 @@
     font-family: "Inter", sans-serif;
 }
 
+
+.inter{
+    font-weight:600;
+    font-size: 32px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -26,7 +32,41 @@ li{
     background-color: #F3C827;
 }
 
+.colorh3{
+    color: #593E26;
+    ;
+}
+.margin {
+    margin:2%;
+}
 
+.margino {
+    margin:3%;
+}
+
+.marginp {
+    margin-top: 9%;
+    margin-left: 20px;
+}
+
+.padingshop{
+    padding: 5%;
+}
+
+
+
+
+.justifyspacearound{
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+.inter7{
+    font-size: 16px;
+    font-weight: 700;
+}
 
 .navheader{
     /*background-color: black;*/
@@ -65,7 +105,7 @@ li{
     
 }
 h3{
-width: 196px;
+
 height: 52px;
 border:none;
 }
@@ -111,12 +151,15 @@ h1{
 .largeur10{
     width: 10%;
 }
-
+.hauteur10{
+    height: 100%;
+}
 
 .marchet{
     background-color: #F3C827;
     width: 267px;
     margin-bottom: 30px;
+    height: 458px;
 }
 
 
@@ -134,4 +177,9 @@ flex-direction: column;
 }
 .flexWarpnow {
 flex-wrap: nowrap;
+}
+
+.largeurtexte {
+    width: 1280%;
+    height: 372;
 }
