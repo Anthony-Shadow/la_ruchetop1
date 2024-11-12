@@ -24,6 +24,12 @@ a{
     color: black;
 }
 
+
+.absolute {
+    position:sticky; /* cole son parent */
+    }
+
+
 li{
     list-style-type: none;
 }
